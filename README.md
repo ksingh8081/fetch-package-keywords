@@ -1,13 +1,8 @@
 
 # fetch-package-keywords
 
-fetch keywords of a package
+fetch keywords of a package. Returns a promise.
 
-- returns a promise.
-- fullfillment value for promise is array of keywords.
-
-
-## Example
 fetch keywords for 'express'
 ```js
 var fetch = require('fetch-package-keywords');
