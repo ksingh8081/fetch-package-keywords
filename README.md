@@ -12,7 +12,7 @@ fetch keywords for 'express'
 ```js
 var fetch = require('fetch-package-keywords');
 fetch('express').then(function (keywords) {
-    console.log(list); //[ 'express', 'framework', 'sinatra', ...]
+    console.log(keywords); //[ 'express', 'framework', 'sinatra', ...]
 }).catch(function (error) {
     console.log(error);
 });
