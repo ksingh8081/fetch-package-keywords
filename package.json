@@ -1,0 +1,19 @@
+{
+  "name": "fetch-package-keywords",
+  "version": "1.0.0",
+  "description": "fetch keywords for given package",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "search",
+    "package"
+  ],
+  "author": "ksingh8081@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.0.1",
+    "silent-npm-registry-client": "^3.0.1"
+  }
+}
